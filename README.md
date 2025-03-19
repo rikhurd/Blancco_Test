@@ -10,8 +10,7 @@
  
  CMake - https://cmake.org/
 
-Testing was also done by using Postman
-
+***Testing was also done by using Postman*** <br>
 https://www.postman.com/
 
 ## Dependencies:
