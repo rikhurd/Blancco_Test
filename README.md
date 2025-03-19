@@ -25,17 +25,30 @@ First clone this repository.
 
 Open up your preferred terminal.
 
-1. Go to Blancco_Test subdirectory.
-2. run the following commands in this directory in order to install nodejs.
-   sudo apt update
-   sudo apt install nodejs
-   sudo apt install npm
-   
-3. Next run following commands to init nodejs to this folder and install dependancies.
-   npm init -y
-   npm install express
+1. Go to the `Blancco_Test` subdirectory.
 
-4. Now you can run the start server command and the terminal should output the port which the server is running from.
-   node SimpleServer.js
+2. Run the following commands to install Node.js:
+
+   **Update package lists:**  
+   `sudo apt update`<br>
+
+   **Install Node.js:**  
+   `sudo apt install nodejs`<br>
+
+   **Install npm (Node Package Manager):**  
+   `sudo apt install npm`<br>
+
+4. Next, run the following to initialize Node.js and install dependencies:
+
+   **Initialize a Node.js project:**  
+   `npm init -y`<br>
+
+   **Install Express framework:**  
+   `npm install express`<br>
+
+6. Run the start server command:
+
+   **Start the server and show the port:**  
+   `node SimpleServer.js`<br>
 
  ## How the program works
