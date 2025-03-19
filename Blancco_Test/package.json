@@ -1,0 +1,14 @@
+{
+  "name": "blancco_test",
+  "version": "0.0.0",
+  "description": "Blancco_Test",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

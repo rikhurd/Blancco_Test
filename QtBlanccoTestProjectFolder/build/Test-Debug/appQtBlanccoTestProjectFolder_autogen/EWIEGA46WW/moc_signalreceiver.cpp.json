@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "SignalReceiver",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "SignalReceiver",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "on_signalPerformed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "signalreceiver.h",
+    "outputRevision": 68
+}

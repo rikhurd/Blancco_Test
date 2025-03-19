@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appQtBlanccoTestProjectFolder_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_QtBlanccoTestProjectFolder.cpp"
+  ".rcc/qmlcache/appQtBlanccoTestProjectFolder_Main_qml.cpp"
+  ".rcc/qmlcache/appQtBlanccoTestProjectFolder_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appQtBlanccoTestProjectFolder_qmlcache_loader.cpp"
+  "CMakeFiles/appQtBlanccoTestProjectFolder_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appQtBlanccoTestProjectFolder_autogen.dir/ParseCache.txt"
+  "appQtBlanccoTestProjectFolder_autogen"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/appQtBlanccoTestProjectFolder_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/appQtBlanccoTestProjectFolder_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/appqtblanccotestprojectfolder_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/appqtblanccotestprojectfolder_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.qt/rcc/qrc_appQtBlanccoTestProjectFolder_raw_qml_0.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.qt/rcc/qrc_appQtBlanccoTestProjectFolder_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.qt/rcc/qrc_qmake_QtBlanccoTestProjectFolder.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.qt/rcc/qrc_qmake_QtBlanccoTestProjectFolder.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.rcc/qmlcache/appQtBlanccoTestProjectFolder_Main_qml.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.rcc/qmlcache/appQtBlanccoTestProjectFolder_Main_qml.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.rcc/qmlcache/appQtBlanccoTestProjectFolder_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/build/Test-Debug/.rcc/qmlcache/appQtBlanccoTestProjectFolder_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/main.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/main.cpp.obj.d"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/networkmanager.cpp.obj"
+  "CMakeFiles/appQtBlanccoTestProjectFolder.dir/networkmanager.cpp.obj.d"
+  "QtBlanccoTestProjectFolder/appQtBlanccoTestProjectFolder.qmltypes"
+  "appQtBlanccoTestProjectFolder.exe"
+  "appQtBlanccoTestProjectFolder.exe.manifest"
+  "appQtBlanccoTestProjectFolder.pdb"
+  "appQtBlanccoTestProjectFolder_autogen/mocs_compilation.cpp"
+  "appQtBlanccoTestProjectFolder_autogen/timestamp"
+  "appqtblanccotestprojectfolder_qmltyperegistrations.cpp"
+  "libappQtBlanccoTestProjectFolder.dll.a"
+  "meta_types/appQtBlanccoTestProjectFolder_json_file_list.txt"
+  "meta_types/appQtBlanccoTestProjectFolder_json_file_list.txt.timestamp"
+  "meta_types/qt6appqtblanccotestprojectfolder_debug_metatypes.json"
+  "meta_types/qt6appqtblanccotestprojectfolder_debug_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appQtBlanccoTestProjectFolder.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QMLClient",
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "QMLClient",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "onReplyReceived",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 68
+}

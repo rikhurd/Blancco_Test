@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/QtBlanccoTestProjectFolder">
+    <file alias="qmldir">C:/Users/rikuh/source/repos/Blancco_Test/QtBlanccoTestProjectFolder/build/Test-Debug/QtBlanccoTestProjectFolder/qmldir</file>
+  </qresource>
+</RCC>
+
