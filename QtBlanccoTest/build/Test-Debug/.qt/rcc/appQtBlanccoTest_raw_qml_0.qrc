@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/QtBlanccoTest/">
-    <file alias="Main.qml">C:/Users/rikuh/source/repos/Blancco_Test/QtBlanccoTest/Main.qml</file>
-  </qresource>
-</RCC>
-

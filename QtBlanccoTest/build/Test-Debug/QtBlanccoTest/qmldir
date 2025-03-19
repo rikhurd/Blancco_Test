@@ -1,5 +1,0 @@
-module QtBlanccoTest
-typeinfo appQtBlanccoTest.qmltypes
-prefer :/qt/qml/QtBlanccoTest/
-Main 1.0 Main.qml
-
