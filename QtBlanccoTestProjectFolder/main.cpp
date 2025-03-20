@@ -1,10 +1,13 @@
 #include <QGuiApplication>
 #include <QQuickView>
 #include <networkmanager.h>
+#include <timerbutton.h>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
+    qmlRegisterType<TimerButton>("TimerButtonInclude", 1, 0, "TimerButton");
 
     QQuickView* view = new QQuickView();
 
@@ -22,6 +25,7 @@ int main(int argc, char *argv[])
                      [=](const QUrl &url) {
                          if (url.isValid()) {
                             view->setSource(url);
+                             // Debug URL differs from one got in server, because we do a temporary file of it.
                             qDebug() << "URL received: " << url.toString();
                          } else {
                              qDebug() << "Invalid URL received: " << url.toString();

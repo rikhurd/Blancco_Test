@@ -4,7 +4,8 @@ project(QtBlanccoTestProjectFolder VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick)
+# Add Quick and Widgets packages
+find_package(Qt6 REQUIRED COMPONENTS Quick Widgets)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
@@ -18,6 +19,7 @@ qt_add_qml_module(appQtBlanccoTestProjectFolder
     QML_FILES
         Main.qml
         SOURCES networkmanager.h networkmanager.cpp
+        SOURCES timerbutton.h timerbutton.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -31,8 +33,9 @@ set_target_properties(appQtBlanccoTestProjectFolder PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+#Link Qt libraries
 target_link_libraries(appQtBlanccoTestProjectFolder
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick Qt6::Widgets
 )
 
 include(GNUInstallDirs)
