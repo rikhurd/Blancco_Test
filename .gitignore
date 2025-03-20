@@ -598,3 +598,66 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudio,qt
+
+# Qt (Qt Creator and QML)
+*.autosave
+*.qmlc
+*.jsc
+*.qmake.stash
+*.pro.user*
+*.pro.user.*
+*.moc/
+moc_*.cpp
+moc_*.h
+*.qrc.depends
+*.qrc*
+*.rcc
+*.uic/
+ui_*.h
+qtc_*
+
+# General OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+*.iml
+
+# Custom
+node_modules/
+QtBlanccoTestProjectFolder/build/
+QtBlanccoTestProjectFolder/Test-Debug/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+out/
+
+*.VC.db
+*.VC.opendb
+*.ncb
+*.pdb
+*.idb
+*.ilk
+*.ipch
+*.tlog/
+*.obj/
+*.log
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+
+npm-debug.log*
+yarn.lock
+package-lock.json
+dist/
+build/
