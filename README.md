@@ -18,6 +18,12 @@ https://www.postman.com/
  
  Express 4.21.2 (https://expressjs.com/)
 
+ ### Qt Components we use
+
+ Qt6<br>
+ Quick<br>
+ Widgets<br>
+
 ## How to build the project in Linux based systems
 
 First clone this repository.
