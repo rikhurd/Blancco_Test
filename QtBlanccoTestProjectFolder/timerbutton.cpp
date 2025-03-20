@@ -3,8 +3,8 @@
 #include <QDebug>
 #include <QTimer>
 
-TimerButton::TimerButton(QQuickPaintedItem *parent)
-    : QQuickPaintedItem(parent), m_text("Click to Start Timer"), m_timerRunning(false)
+TimerButton::TimerButton(QQuickItem *parent)
+    : QQuickItem(parent), m_text("Click to Start Timer"), m_timerRunning(false)
 {
     setAcceptedMouseButtons(Qt::LeftButton);
 
@@ -38,15 +38,7 @@ void TimerButton::mousePressEvent(QMouseEvent *event) {
         startTimer();
     }
 
-    QQuickPaintedItem::mousePressEvent(event);
-}
-
-void TimerButton::paint(QPainter *painter) {
-    QRectF buttonRect(0, 0, width(), height());
-    painter->setBrush(QBrush(Qt::lightGray));
-    painter->drawRect(buttonRect);
-    painter->setPen(QPen(Qt::black));
-    painter->drawText(buttonRect, Qt::AlignCenter, m_text);
+    QQuickItem::mousePressEvent(event);
 }
 
 // This method is called every time the timer's tick signal is emitted

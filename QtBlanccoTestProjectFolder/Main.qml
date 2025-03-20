@@ -21,6 +21,18 @@ Item {
                 onClicked: {
                     console.log("Button Clicked from QML")
                 }
+                Rectangle {
+                        anchors.fill: parent
+                        color: "grey"
+                        radius: 20
+
+                        Text {
+                            anchors.centerIn: parent
+                            text: button.text
+                            font.pixelSize: 32
+                            color: "black"
+                        }
+                }
             }
 
             Rectangle {

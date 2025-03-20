@@ -1,18 +1,18 @@
 #ifndef TIMERBUTTON_H
 #define TIMERBUTTON_H
 
-#include <QQuickPaintedItem>
+#include <QQuickItem>
 
 class QMouseEvent;
 
-class TimerButton : public QQuickPaintedItem
+class TimerButton : public QQuickItem
 {
     Q_OBJECT
     Q_PROPERTY(QString text READ text WRITE setText NOTIFY textChanged)
     Q_PROPERTY(QString currentTime READ currentTime NOTIFY currentTimeChanged)
 
 public:
-    explicit TimerButton(QQuickPaintedItem *parent = nullptr);
+    explicit TimerButton(QQuickItem *parent = nullptr);
 
     QString text() const;
     void setText(const QString &text);
@@ -25,7 +25,6 @@ signals:
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
-    void paint(QPainter *painter) override;
 
 private:
     QString m_text;
