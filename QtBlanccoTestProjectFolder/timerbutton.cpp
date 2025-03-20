@@ -43,9 +43,10 @@ void TimerButton::mousePressEvent(QMouseEvent *event) {
 
 // This method is called every time the timer's tick signal is emitted
 void TimerButton::onTick() {
+    m_elapsedTime++;
+
     qDebug() << "Elapsed Time:" << QString::number(m_elapsedTime);
 
-    m_elapsedTime++;
     m_currentTime = QString::number(m_elapsedTime);  // Update the timer text
     emit currentTimeChanged();
     update();
