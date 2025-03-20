@@ -3,6 +3,7 @@
 
 #include <QQuickItem>
 
+// Class forwarding
 class QMouseEvent;
 
 class TimerButton : public QQuickItem
@@ -33,7 +34,7 @@ private:
     bool m_timerRunning;
     int m_elapsedTime = 0;
 
-    void onTick();          // Called every time timer timeout interval is called which is 1000ms
+    void onTick();          // Called when timeout interval is called which is 1000ms
     void startTimer();
     void stopTimer();
 };
