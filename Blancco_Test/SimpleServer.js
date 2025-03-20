@@ -25,7 +25,8 @@ app.post("/api/v1/getQML", (req, res) => {
 
     // Get filename from QtBlanccoTestProjectFolder dir. Filename which is sent via POST is got dynamically, but in this test case will always be 'Main.qml'
     const filePath = path.join(__dirname, '..', 'QtBlanccoTestProjectFolder', filename);
-    // console.log("File path:", filePath);
+
+    console.log("File path sent: ", filePath);
     fs.readFile(filePath, "utf8", (err, data) => {
         if (err) return res.status(500).json({ error: "File not found" });
 
