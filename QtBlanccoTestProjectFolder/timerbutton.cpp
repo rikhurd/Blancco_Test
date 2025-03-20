@@ -1,5 +1,4 @@
 #include "timerbutton.h"
-#include <QPainter>
 #include <QDebug>
 #include <QTimer>
 
